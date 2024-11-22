@@ -4,6 +4,7 @@ import WorkingWithArrays from "./WorkingWithArrays.js";
 import WorkingWithObjects from "./WorkingWithObjects.js";
 export default function Lab5(app) {
   app.get("/lab5/welcome", (req, res) => {
+    console.log('im here')
     res.send("Welcome to Lab 5");
   });
   PathParameters(app);
