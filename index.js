@@ -1,10 +1,11 @@
 import express from 'express'
 import Hello from './hello.js';
 import Lab5 from './Lab5/index.js'
-import session from "express-session";
+import session from "cookie-session";
+
 import cors from "cors";
 import UserRoutes from "./Kanbas/Users/routes.js";
-import "dotenv/config";
+import "dotenv/config.js";
 import CourseRoutes from './Kanbas/Courses/routes.js';
 const app = express();
 app.use(
